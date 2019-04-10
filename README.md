@@ -35,3 +35,8 @@ Aの要素が大きいほど、ユーザーはアイテムを好きになりま�
 * 全体として、小規模のMovieLens 1Mデータセットに基づくと、この場合の3つのリコメンドアルゴリズムは次のように表すことができます：リコメンドアルゴリズム予測効果：SVD>User based>Itembased
 * ユーザーに基づくリコメンドから、リコメンドのデータ数が多く、またデータ間のインタラクティブが多ければ、リコメンド効果は良くなる。しかしながら、インタラクティブは足りないからリコメンドシステムが必要です。したがって、できるだけ多くのデータを収集することは重要と思います。
 * 3つのリコメンドアルゴリズムのうち、SVDリコメンドアルゴリズムは優れており、予測結果は他の2つのリコメンドアルゴリズムと比較して改善します。
+
+### 参考資料
+1. [Simple Movie Recommender Using SVD](https://alyssaq.github.io/2015/20150426-simple-movie-recommender-using-svd/)
+2. Kalman D. A singularly valuable decomposition: the SVD of a matrix[J]. The college mathematics journal, 1996, 27(1): 2-23.
+3. [推荐系统之协同过滤（CF）算法详解和实现](https://www.cnblogs.com/maybe2030/p/4636341.html)
